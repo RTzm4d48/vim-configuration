@@ -1,6 +1,9 @@
+let mapleader = " "
+
 so ~/.vim/vim_config/plugins.vim
 so ~/.vim/vim_config/keymaps.vim
-so ~/.vim/vim_config/undo.vim
+" so ~/.vim/vim_config/undo.vim
+
 
 syntax on                     " Habilitar resaltado de sintaxis
 set number                    " Mostrar números de línea
@@ -33,8 +36,8 @@ set undofile                  " Permite deshacer incluso después de cerrar Vim
 colorscheme gruvbox
 set background=dark " O usar 'light'
 set noshowmode
+let g:gruvbox_contrast_dark = "hard"
+
 
 " Mostrar archivos ocultos en NERDTree (por ejemplo nos muestra '.env' o '.gitignore')
 let NERDTreeShowHidden=1
-
-
